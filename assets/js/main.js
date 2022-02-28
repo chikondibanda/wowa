@@ -142,11 +142,11 @@ console.log('%c Developed by 😎.', 'background: #222; color: dodgerblue');
          * Rotate
          /* ---------------------------------------------- */
 
-        $(".rotate").textrotator({
-            animation: "dissolve",
-            separator: "|",
-            speed: 3000
-        });
+        // $(".rotate").textrotator({
+        //     animation: "dissolve",
+        //     separator: "|",
+        //     speed: 3000
+        // });
 
 
         /* ---------------------------------------------- /*
@@ -346,34 +346,34 @@ console.log('%c Developed by 😎.', 'background: #222; color: dodgerblue');
 
 
         /* ---------------------------------------------- /*
-         * Youtube video background
+         * Youtube video background disabled
          /* ---------------------------------------------- */
 
-        $(function(){
-            $(".video-player").mb_YTPlayer();
-        });
+        // $(function(){
+        //     $(".video-player").mb_YTPlayer();
+        // });
 
-        $('#video-play').click(function(event) {
-            event.preventDefault();
-            if ($(this).hasClass('fa-play')) {
-                $('.video-player').playYTP();
-            } else {
-                $('.video-player').pauseYTP();
-            }
-            $(this).toggleClass('fa-play fa-pause');
-            return false;
-        });
+        // $('#video-play').click(function(event) {
+        //     event.preventDefault();
+        //     if ($(this).hasClass('fa-play')) {
+        //         $('.video-player').playYTP();
+        //     } else {
+        //         $('.video-player').pauseYTP();
+        //     }
+        //     $(this).toggleClass('fa-play fa-pause');
+        //     return false;
+        // });
 
-        $('#video-volume').click(function(event) {
-            event.preventDefault();
-            if ($(this).hasClass('fa-volume-off')) {
-                $('.video-player').YTPUnmute();
-            } else {
-                $('.video-player').YTPMute();
-            }
-            $(this).toggleClass('fa-volume-off fa-volume-up');
-            return false;
-        });
+        // $('#video-volume').click(function(event) {
+        //     event.preventDefault();
+        //     if ($(this).hasClass('fa-volume-off')) {
+        //         $('.video-player').YTPUnmute();
+        //     } else {
+        //         $('.video-player').YTPMute();
+        //     }
+        //     $(this).toggleClass('fa-volume-off fa-volume-up');
+        //     return false;
+        // });
 
 
         /* ---------------------------------------------- /*
